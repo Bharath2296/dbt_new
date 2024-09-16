@@ -1,0 +1,1 @@
+select '{{ invocation_id }}' as idvalue

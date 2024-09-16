@@ -1,0 +1,1 @@
+select * from {{ source('SnowflakeTable', 'CATALOG_RETURNS1') }} limit 100

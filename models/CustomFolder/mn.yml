@@ -1,0 +1,34 @@
+models:
+  - name: second
+    description: "This is model for second "
+    columns:
+      - name: CR_RETURNED_DATE_SK
+        tags: ['P8','P9']
+        tests:
+          - not_null
+          - customtest1
+ 
+        
+  - name: emp
+    description: "this is employee table"
+    columns:
+      - name: id
+        tags: ['P8','P9']
+        description: "This is id colun"
+        tests:
+          - unique
+          - not_null
+      - name: salary
+        description: "this is salary column"
+        tests:
+          - not_null
+          - emptest
+          - customtest1
+          
+          
+               
+                   
+    
+    config:
+       materialized: 'table'
+       

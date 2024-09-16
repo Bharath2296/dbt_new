@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: SnowflakeTable
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF100TCL
+    tables:
+      - name: CALL_CENTER12
+        identifier: CALL_CENTER
+      - name: CATALOG_RETURNS1
+        identifier: CATALOG_RETURNS
+

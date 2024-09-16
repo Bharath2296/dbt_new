@@ -1,0 +1,4 @@
+{% docs eventstable %}
+
+snacks
+{% enddocs %}

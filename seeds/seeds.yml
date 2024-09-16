@@ -1,0 +1,12 @@
+seeds:
+  - name: firstseedfile
+    config:
+      column_types:
+        EMPLOYEE_ID: varchar
+  
+  - name: secondseedfile
+    config:
+      delimiter: '|'
+      column_types:
+        EMPLOYEE_ID: varchar
+  
